@@ -2,31 +2,33 @@
   box-sizing: border-box;
 }
 
-.container>div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2em;
-  color: #ffffff;
-}
-
 body {
   margin: 0;
   font-family: sans-serif;
-  color: $#ffffff;
+  color: #ffffff;
+  margin: 2px;
   overflow: hidden;
 }
 
+.container>div {
+  display: flex;
+  justify-content: flex-end;
+  /* align-items: flex-start; */
+  padding: 0 5px 5px;
+  color: #ffffff;
+  flex-direction: column;
+}
+
 .container>div:nth-child(1n) {
-  background-color: #96ceb4;
+  background-color: #39c081;
 }
 
 .container>div:nth-child(3n) {
-  background-color: #88d8b0;
+  background-color: #ab88d8;
 }
 
 .container>div:nth-child(2n) {
-  background-color: #ff6f69;
+  background-color: #e41e17;
 }
 
 .container>div:nth-child(4n) {
