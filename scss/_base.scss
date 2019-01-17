@@ -10,27 +10,13 @@ body {
   overflow: hidden;
 }
 
-.container>div {
-  display: flex;
-  justify-content: flex-end;
-  /* align-items: flex-start; */
-  padding: 0 5px 5px;
+h1 {
   color: #ffffff;
-  flex-direction: column;
+  text-align: center;
+  font-size: 33px;
+  font-weight: bold;
 }
 
-.container>div:nth-child(1n) {
-  background-color: #39c081;
-}
-
-.container>div:nth-child(3n) {
-  background-color: #ab88d8;
-}
-
-.container>div:nth-child(2n) {
-  background-color: #e41e17;
-}
-
-.container>div:nth-child(4n) {
-  background-color: #ffcc5c;
+p {
+  xline-height: 10px;
 }
