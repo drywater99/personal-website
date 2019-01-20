@@ -13,14 +13,14 @@
   font-size: 12px; }
 
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  xwidth: 100%; }
 
 body {
   margin: 0;
   font-family: sans-serif;
-  color: #ffffff;
-  margin: 2px;
-  overflow: hidden; }
+  color: #161616;
+  margin: 2px; }
 
 h1 {
   color: #ffffff;
