@@ -1,8 +1,11 @@
 .header {
   display: flex;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
+  font-size: 24px;
   background-color: #ffeead;
-  padding: 5px;
-  margin: 0 0 2px 0;
+}
+
+.header__sub {
+  font-size: 16px;
 }
