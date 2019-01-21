@@ -20,7 +20,7 @@
   line-height: 30px;
 }
 
-.container > div {
+.container>div {
   display: flex;
   justify-content: flex-end;
   /* align-items: flex-start; */
@@ -29,18 +29,18 @@
   flex-direction: column;
 }
 
-.container > div:nth-child(1n) {
+.container>div:nth-child(1n) {
   background-color: #39c081;
 }
 
-.container > div:nth-child(3n) {
+.container>div:nth-child(3n) {
   background-color: #ab88d8;
 }
 
-.container > div:nth-child(2n) {
+.container>div:nth-child(2n) {
   background-color: #e41e17;
 }
 
-.container > div:nth-child(4n) {
+.container>div:nth-child(4n) {
   background-color: #ffcc5c;
 }

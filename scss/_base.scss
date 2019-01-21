@@ -1,19 +1,29 @@
 * {
   box-sizing: border-box;
-  xwidth: 100%;
+  width: 100%;
 }
 
 body {
   font-family: sans-serif;
+  font-weight: bold;
   color: #161616;
   margin: 3px;
 }
 
 h1 {
-  color: #ffffff;
-  text-align: center;
-  font-size: 33px;
-  font-weight: bold;
+  font-size: 43px;
+  padding: 20px 5% 0;
+  overflow: auto;
+}
+
+.h1:hover {
+  filter: blur(10px);
+}
+
+h2 {
+  font-size: 43px;
+  padding: 30% 5% 20%;
+  overflow: auto;
 }
 
 p {

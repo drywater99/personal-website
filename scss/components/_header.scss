@@ -1,11 +1,22 @@
-.header {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  font-size: 24px;
-  background-color: #ffeead;
-  padding: 0 20px 0;
-  margin-bottom: 3px;
+.header__img {
+  width: 100%;
+  height: 100vh;
+  background: url(https://nulogic.net/wp-content/uploads/2015/12/datacenter-1-768x512.jpg);
+  background-size: cover;
+
+  &::after.hover {
+    content: '';
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7));
+    transition: opacity 3s cubic-bezier(0.23, 1, 0.32, 1), height 3s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+}
+
+
+.header__h1:hover {
+  filter: blur(10px);
 }
 
 .header__sub {
