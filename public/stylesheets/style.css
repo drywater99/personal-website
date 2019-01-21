@@ -33,7 +33,7 @@ p {
 .grid {
   display: grid;
   height: 100vh;
-  grid-template-rows: 48px auto 48px; }
+  xgrid-auto-rows: 100vh; }
 
 .grid__scroll-area {
   overflow-y: scroll; }
@@ -97,15 +97,14 @@ p {
   background-color: blueviolet;
   height: 680px; }
 
-x.bio__margin {
-  padding: 0 10% 0 20%; }
-  @media screen {
-    x.bio__margin {
-      width: 1000px; } }
+@media (min-width: 300px) {
+  .bio__margin {
+    padding: 0 10% 0 20%;
+    margin: 0 auto; } }
 
 .bio {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-auto-rows: repeat 15, 300px; }
 
 .bio > section {

@@ -3,17 +3,17 @@
     height: 680px;
 }
 
-x.bio__margin {
-    padding: 0 10% 0 20%;
+.bio__margin {
 
-    @media screen {
-        width: 1000px;
+    @media (min-width: 300px) {
+        padding: 0 10% 0 20%;
+        margin: 0 auto;
     }
 }
 
 .bio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-auto-rows: repeat (15, 300px);
 }
 
